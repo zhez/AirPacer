@@ -1,0 +1,12 @@
+h4.toggle { 
+    font:14px arial; color:#50555a; text-shadow:0 1px 1px #FFF; margin-bottom:1px; 
+    background:#EEF1F2 url('../../img/plus.gif') no-repeat 15px 15px;
+}
+h4.toggle a { color: #50555a; text-decoration: none; display: block; font-weight:bold; padding:20px 30px 20px 55px; }
+h4.toggle:hover { background:#EEE url('../../img/plus.gif') no-repeat 15px 15px; }
+h4.active, h4.active:hover { background:#f4f4f4 url('../../img/minus.gif') no-repeat 15px 15px; }
+h4.active a { color:#333; text-shadow:0 1px 1px #FFF; }
+.toggle_container { 
+	overflow:hidden; border-left:1px solid #ECECEC; border-right:1px solid #ECECEC; border-bottom:1px solid #ECECEC; background:#FFF; 
+	padding:22px 22px 7px 22px; margin-top:-3px; padding-bottom:20px;
+}

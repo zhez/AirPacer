@@ -1,0 +1,210 @@
+/********************************
+RESPONSIVE CSS * MEDIA QUERIES
+********************************/
+
+/*iPad Landscape*/
+@media screen and (max-width: 1024px), screen and (max-device-width: 1024px), screen and (max-width: 1200px)  {	
+	#container-boxed { width:950px; }
+	.inside { width:850px; }
+	.services-list { width:250px; }
+	.hblog-list { width:254px; }
+	.hblog-list img.wp-post-image { max-width:254px; height:auto; }
+	.reviews { width:280px; margin-bottom:30px; }
+	.hover-style, .hover-style-video { top:22%; left:42%; }
+	footer .widget { margin-right:20px; }
+	.sidebar { width:220px; }
+	.right-content, .blog-list { width:600px; }
+	.team-list .member { width:256px; margin-right:40px; }
+	.member img.wp-post-image { max-width:256px; height:236px; }
+	.thumbs-animate { width:256px; height:236px; }
+	.portfolio-list { width:265px; }
+	.portfolio-list img.wp-post-image { max-width:265px; height:146px; }
+	.portfolio-list .hover-style { top:23%; }
+	.portfolio-flexslider img.attachment-gallery-large { max-width:850px; height:auto; }
+	.descriptions { width:560px; }
+	.pdetails { width:220px; }
+	.blist img.wp-post-image { max-width:600px; height:auto; }
+	.blist .video-js { width:600px !important; height:400px !important; }
+	.widget-video iframe { width:178px; height:80px; }
+	.widget_search #searchform input[type="submit"], .newsletter input[type="submit"] { margin-left:0; }
+	.port-list { width:556px; margin-right:27px; margin-bottom:27px; }
+	.port-list img.wp-post-image { max-width:556px; height:318px; }
+	.thumb-port-list { width:265px; margin-right:26px; margin-bottom:27px; }
+	.thumb-port-list img.wp-post-image { max-width:265px; height:146px; }
+	#respond input[type="text"] { width:143px !important; }
+	#respond textarea { width:530px !important; }
+	.comment-details { width:460px; }
+	.children .parent .comment-details { width:340px; }
+	.children .children .parent .comment-details { width:240px; }
+	.children li #respond input[type="text"], .comments ul li #respond input[type="text"] { width:129px !important; }
+	.children li #respond textarea, .comments ul li #respond textarea { width:490px !important; }
+	img.resize { max-width:100%; height:auto; }
+	.contact-desc { width:360px; }
+	.contact-desc iframe { width:372px; height:674px; }
+	.widget_search #searchform input[type="text"], .newsletter input[type="text"] { width:146px; margin-bottom:20px; }
+	.pricing-item { width:212px; }
+}
+
+/*iPad Portrait*/
+@media handheld and (max-width: 767px), screen and (max-device-width: 767px), screen and (max-width: 960px)  {
+	#container-boxed { width:700px; }
+	.inside { width:600px; }
+	.services-list { width:100%; margin-right:0; }
+	.services-icons { margin-top:40px; }
+	.reviews { float:left; width:100%; }
+	.hblog-list { width:285px; }
+	.hblog-list img.wp-post-image { max-width:285px; height:157px; }
+	.hover-style, .hover-style-video { top:25%; left:45%; }
+	.blist .video-js { width:350px !important; height:300px !important; }
+	footer .widget { width:100%; margin-bottom:40px; }
+	#tweets { width:520px; }
+	#mselect { display:block; border:1px solid #DADDDE; width:250px; }
+	.smenu { position:absolute; right:40px; top:50px; }
+	nav { display:none; }
+	.logo-menu { padding-bottom:30px; }
+	.welcome h2 { line-height:35px; }
+	.plist { width:105% !important; }
+	.pricing-item { width:300px; }
+	.right-content, .blog-list { width:350px; }
+	.team-list .member { margin-right:20px; width:186px; }
+	.member img.wp-post-image { max-width:188px; height:173px; }
+	.thumbs-animate { width:186px; height:173px; }
+	.team-social ul li { margin-right:4px; }
+	.mdetails span { float:left; }
+	.faqs-list ul li a, .cat-portfolio ul li a { padding:15px 20px; font-size:12px; }
+	.portfolio-list { width:188px; margin-right:18px; margin-bottom:18px; }
+	.portfolio-list img.wp-post-image { max-width:188px; height:104px; }
+	.hblog-desc h3 a { font-size:13px; }
+	.hblog-desc label { font-size:11px; }
+	.portfolio-list .hover-style { top:18%; left:40%; }
+	.portfolio-flexslider .flex-direction-nav { top:32%; }
+	.port-list { width:600px; margin-bottom:26px; }
+	.port-list img.wp-post-image, .portfolio-flexslider img.attachment-gallery-large { max-width:600px; height:auto; }
+	.thumb-port-list { width:287px; margin-right:26px; margin-bottom:26px; }
+	.thumb-port-list img.wp-post-image { max-width:287px; height:158px; }
+	.descriptions { width:320px; }
+	.blist img.wp-post-image { max-width:350px; height:auto; }
+	#respond input[type="text"], #respond textarea { width:282px !important; }
+	#respond ul li.last { margin-bottom:20px !important; }
+	.comment-details { width:210px; }
+	.children .parent { margin-left:20px; }
+	.children .parent .comment-details { width:150px; }
+	.children .children .parent { margin-left:40px !important; }
+	.children .children .parent .comment-details { width:130px; }
+	.children li #respond input[type="text"], .comments ul li #respond input[type="text"],
+	.children li #respond textarea, .comments ul li #respond textarea { width:240px !important; }
+	.contact-desc iframe { width:600px; height:400px; }
+	.more-contact { width:598px; }
+	.cpage #respond input[type="text"] { width:235px !important; }
+	.cpage #respond textarea { width:522px !important; height:150px !important; }
+	.address, .contact-more { width:250px; }
+	.single .image-hover iframe { height:300px; }
+}
+
+/*iPhone Landscape*/
+@media screen and (max-width: 480px), screen and (max-device-width: 480px), screen and (max-width: 750px)  {
+	#container-boxed { width:400px; }
+	.inside, .blog-list, .contact-desc { width:300px; }
+	.more-contact { width:298px; }
+	.right-content, .sidebar { width:100%; }
+	.socials { float:left; margin-top:20px; }
+	.socials ul li { margin-left:0; margin-right:8px; }
+	.smenu { top:110px; right:0; }
+	#mselect { width:300px; }
+	.logo-menu { padding-bottom:70px; }
+	.tp-rightarrow.large, .tp-leftarrow.large { height:40px; top:40% !important; }
+	.hblog-list { margin-right:0; width:300px; }
+	.hblog-list img.wp-post-image { max-width:300px; height:165px; }
+	.latest-news { margin-bottom:30px; }
+	.hblog-desc h3 a { font-size:14px; }
+	.hblog-desc label { font-size:12px; }
+	#tweets { width:225px; }
+	.copyright { font-size:11px; }
+	.team-list .member { width:300px; margin-right:0; margin-bottom:20px; }
+	.member img.wp-post-image { max-width:300px; height:276px; }
+	.thumbs-animate { width:300px; height:276px; }
+	.team-social ul li { margin-right:8px; }
+	.mdetails span { float:right; }
+	.faqs-list, .cat-portfolio { background:none; }
+	.faqs-list ul li a, .cat-portfolio ul li a { background:#A0A0A0; border-right:0; margin-right:1px; margin-top:1px; }
+	.portfolio-list { margin-right:0; width:300px; }
+	.portfolio-list img.wp-post-image { max-width:300px; height:165px; }
+	.portfolio-list .hover-style { top:25%; left:45%; }
+	.portfolio-list.last { margin-bottom:20px !important; }
+	.port-list, .thumb-port-list { width:300px; }
+	.port-list h2 { font-size:16px; left:15px; top:15px; }
+	.port-list label.pcat { bottom:25px; left:15px; font-size:11px; }
+	.port-list a.port-link { bottom:15px; right:15px; }
+	.port-list img.wp-post-image, .thumb-port-list img.wp-post-image { max-width:300px; height:auto; }
+	.portfolio-flexslider img.attachment-gallery-large { max-width:300px; height:auto; }
+	.portfolio-flexslider .flex-direction-nav { top:40%; }
+	.portfolio-flexslider .flex-direction-nav li a { height:20px; }
+	.descriptions { width:258px; }
+	.pdetails { width:280px; }
+	.back-portfolio { display:none; }
+	.blist img.wp-post-image { max-width:300px; height:auto; }
+	.widget_search #searchform input[type="text"], .newsletter input[type="text"] { width:121px; }
+	.widget_search #searchform input[type="submit"], .newsletter input[type="submit"] { margin-top:0; }
+	.widget-video iframe { width:257px; height:120px; }
+	#tweets { height:auto; }
+	.single .image-hover iframe { height:170px; }
+	.blist .video-js { width:300px !important; height:170px !important; }
+	#respond input[type="text"], #respond textarea { width:232px !important; }
+	.comment-details { width:160px; }
+	.children .parent .comment-details { width:200px; margin-top:15px; }
+	.children .children .parent .comment-details { width:178px; margin-top:15px; }
+	.comments { margin-bottom:40px; }
+	.children li #respond input[type="text"], .comments ul li #respond input[type="text"], 
+	.children li #respond textarea, .comments ul li #respond textarea { width:190px !important; }
+	.contact-desc iframe { width:300px; height:300px; }
+	.cpage #respond input[type="text"], .cpage #respond textarea { width:223px !important; }
+	.address { margin-bottom:20px; }
+	.es-carousel ul li { width:200px !important; }
+	.widget_search #searchform input[type="text"], .newsletter input[type="text"] { margin-bottom:0; }
+	.single-details ul li { margin-right:0; }
+	.pricing-list { margin-top:0; }
+}
+
+/*iPhone Portrait*/
+@media screen and (max-width: 320px), screen and (max-device-width: 320px), screen and (max-width: 450px) {
+	#container-boxed { width:290px; }
+	.inside, #mselect, .hblog-list, .port-list, .thumb-port-list, .pricing-item, .team-list .member, .portfolio-list { width:220px; }
+	.socials ul li, .widget-get-in-touch ul li { margin-right:4px; }
+	.services-icons { margin-right:30px; }
+	.hblog-list img.wp-post-image { max-width:220px; height:121px; }
+	.hover-style, .hover-style-video { top:20%; left:42%; }
+	#tweets { width:140px; }
+	.copyright { width:160px; display:block; }
+	a#toTop { top:2px; }
+	.es-carousel { margin:0 15px; }
+	.es-carousel ul li { width:190px !important; }
+	.es-nav span { padding:0 15px; }	
+	.port-list img.wp-post-image { max-width:220px; height:126px; }
+	.thumb-port-list img.wp-post-image { max-width:220px; height:121px; }
+	.services-icons { margin-right:20px; }
+	.thumbs-animate { width:220px; height:203px; }
+	.member img.wp-post-image { max-width:100%; max-height:100%; }
+	.mdetails span { float:left; }
+	.not-found { background-size:220px auto; width:220px; height:369px; }
+	.portfolio-list img.wp-post-image { max-width:220px; height:121px; }
+	.portfolio-list .hover-style { top:20%; left:42%; }
+	.portfolio-flexslider img.attachment-gallery-large, .blist img.wp-post-image { max-width:220px; height:auto; }
+	.descriptions { width:175px; }
+	.pdetails { width:200px; }
+	.blist .video-js { width:220px !important; height:180px !important; }
+	.inside, .blog-list { width:220px; }
+	.sidebar .tab-menu li a { padding:20px 2.7em !important; }
+	.widget_search #searchform input[type="text"], .newsletter input[type="text"] { width:145px; margin-bottom:20px; }
+	.widget-video iframe { width:175px; height:100px; }
+	#respond input[type="text"], #respond textarea { width:152px !important; }
+	#respond input[type="submit"] { padding:10px 20px !important; }
+	.comment-details { width:180px; margin-top:15px; }
+	.children .parent .comment-details { width:120px; }
+	.children .children .parent .comment-details { width:100px; }
+	.children li #respond input[type="text"], .comments ul li #respond input[type="text"], 
+	.children li #respond textarea, .comments ul li #respond textarea { width:110px !important; }
+	.contact-desc iframe { width:220px; height:180px; }
+	.contact-desc, .more-contact { width:219px; }
+	.cpage #respond input[type="text"], .cpage #respond textarea { width:142px !important; }
+	.address, .contact-more { width:170px; }
+}

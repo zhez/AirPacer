@@ -1,0 +1,55 @@
+/* Elastislide Style */
+.es-carousel-wrapper{
+	position:relative;
+}
+.es-carousel {
+	overflow:hidden;
+	margin-left:50px;
+	margin-right:50px;
+}
+.es-carousel ul{
+	display:none;
+}
+.es-carousel ul li {
+	height:100%;
+	float:left;
+	display:block;
+	width:233px !important;
+	position:relative;
+	background:#2c343c;
+}
+.es-carousel ul li:last-child { margin-right:0 !important; }
+.es-carousel ul li a{
+	display:block;
+}
+.es-carousel ul li a img{
+	display:block;
+	border:none;
+	max-height:100%;
+	max-width:100%;
+}
+.es-nav {
+	position:absolute;
+	top:0;
+	right:0;
+	text-indent:-9000px;
+	cursor:pointer;
+	width:100%;
+}
+.es-nav span { display:block !important; position: absolute; cursor: pointer; height:177px; padding:0 25px; }
+.es-nav span.es-nav-next{
+    top:0;
+    right: 0;   	
+    background:#D5D6D8 url('img/arrow-right.png') no-repeat center;    
+}
+.es-nav span.es-nav-next:hover {
+	background:#b5b5b5 url('img/arrow-right.png') no-repeat center; 
+}
+.es-nav span.es-nav-prev {
+    top:0;
+    left:0;
+    background:#D5D6D8 url('img/arrow-left.png') no-repeat center;
+}
+.es-nav span.es-nav-prev:hover {	
+	background:#b5b5b5 url('img/arrow-left.png') no-repeat center; 
+}
